@@ -22,6 +22,6 @@ require_once BASEDIR . '/controller/vendor/autoload.php';
  |-----------------------------
  |
  */
-require_once BASEROUTER . '/http/app.php';
+require_once BASEROUTER . '/Http/app.php';
 
 # END
