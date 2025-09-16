@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * |------------------------
+ * |      APPLICATION
+ * |------------------------
+ */
+
+define('BASEDIR', __DIR__);
+
+/*
+ |-----------------------------
+ |          AUTOLOAD
+ |-----------------------------
+ |
+ */
+require_once BASEDIR . '/controller/vendor/autoload.php';
+
+/*
+ |-----------------------------
+ |           CONSOLE
+ |-----------------------------
+ |
+ */
+require_once BASEROUTER . '/console/app.php';
+
+# END

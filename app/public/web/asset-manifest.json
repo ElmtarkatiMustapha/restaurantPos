@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e971198e.css",
+    "main.js": "/static/js/main.e548f529.js",
+    "static/js/27.1939f024.chunk.js": "/static/js/27.1939f024.chunk.js",
+    "static/media/uicons-solid-rounded.eot": "/static/media/uicons-solid-rounded.09d35d5128fee38fd1d3.eot",
+    "static/media/uicons-regular-rounded.eot": "/static/media/uicons-regular-rounded.f68803923a70254403c9.eot",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
+    "static/media/uicons-solid-rounded.woff": "/static/media/uicons-solid-rounded.e6365a9280a7dc6cd4b1.woff",
+    "static/media/uicons-regular-rounded.woff": "/static/media/uicons-regular-rounded.7924bb92c18e588ccb39.woff",
+    "static/media/NotoKufiArabic-Regular.ttf": "/static/media/NotoKufiArabic-Regular.b5490555fa29066c2a31.ttf",
+    "static/media/uicons-solid-rounded.woff2": "/static/media/uicons-solid-rounded.f1884d40f67a4caeda3c.woff2",
+    "static/media/uicons-regular-rounded.woff2": "/static/media/uicons-regular-rounded.e2205e1378b5f876c4cc.woff2",
+    "static/media/logo1.png": "/static/media/logo1.903d8caa356e691e01c2.png",
+    "static/media/logo.png": "/static/media/logo.42a8a9b1480bf258eb57.png",
+    "static/media/disk-background.png": "/static/media/disk-background.3d3459232291c473c6f9.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.e971198e.css",
+    "static/js/main.e548f529.js"
+  ]
+}

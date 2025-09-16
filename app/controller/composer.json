@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+            "APP\\": "App/",
+            "TOOL\\": "Tools/"
+        },
+        "files": [
+            "Helpers/tracks.php",
+            "Helpers/functions.php",
+            "Helpers/update.php"
+        ]
+    },
+    "require": {
+        "mike42/escpos-php": "^4.0",
+        "dompdf/dompdf": "^1.2",
+        "phpmailer/phpmailer": "^6.6",
+        "ralouphie/mimey": "^2.1",
+        "filp/whoops": "^2.14"
+    }
+}
