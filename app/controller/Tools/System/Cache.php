@@ -12,7 +12,7 @@ class Cache
      * 
      * @var string
      */
-    private const CACHE_DIR = BASESTORAGE . '/cache/';
+    private const CACHE_DIR = BASESTORAGE . '/cache';
 
 
     /**
