@@ -14,7 +14,7 @@
 namespace TOOL\Upload;
 
 class Uploader {
-
+    private $cache_data;
     protected array $options = array(
         'limit' => null,
         'maxSize' => null,
