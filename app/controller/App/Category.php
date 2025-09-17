@@ -104,14 +104,6 @@ class Category extends CurdExtension
                 'item' => $req->type === 'items' ? $req->keyword : '',
             ]
         );
-
-        // // Decode json
-        // $reuslts->data->rows = array_map(function ($row) {
-
-        //     $row->items = json_decode($row->items, true);
-
-        //     return $row;
-        // }, (array) $reuslts->data->rows);
         $reuslts->data->rows = array_map(function ($row) {
             $row->items = (!empty($row->items) && is_string($row->items))
                 ? json_decode($row->items, true)
