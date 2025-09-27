@@ -2,13 +2,13 @@
     "printers": {
         "kitchen": "SII RP-D10",
         "bartender": "SII RP-D10",
-        "cashier": "SII RP-D10"
+        "cashier": null
     },
     "ticket": {
         "footer": "Merci pour Votre Visite"
     },
     "report": {
-        "emails": "mstafamt8@gmail.com"
+        "emails": null
     },
     "company": {
         "name": "Ossiano",
@@ -17,6 +17,6 @@
         "logo": "OxFf6JrN2CuzMTojnQmh.jpg"
     },
     "error": {
-        "error": "Failed to print. Command \"smbclient '\/\/b6cc70c497e1\/SII RP-D10' -c 'print -' -N -m SMB2\" failed with exit code 127: sh: 1: smbclient: not found"
+        "error": "Printer '' is not a valid printer name. Use local port (LPT1, COM1, etc) or smb:\/\/computer\/printer notation."
     }
 }

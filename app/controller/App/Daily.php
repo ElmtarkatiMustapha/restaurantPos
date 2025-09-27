@@ -41,7 +41,8 @@ class Daily extends CurdExtension
      */
     static function generate()
     {
-        return self::insert(['id' => 'id']);
+        // return self::insert(['id' => 'id']);
+        return self::insert(['create_at' => date('Y-m-d H:i:s'),]);
     }
 
     /**

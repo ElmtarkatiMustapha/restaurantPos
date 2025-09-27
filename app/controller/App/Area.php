@@ -100,15 +100,13 @@ class Area extends CurdExtension
                 'item' => $req->type === 'items' ? $req->keyword : '',
             ]
         );
-
-        // Decode json
         $reuslts->data->rows = array_map(function ($row) {
-
-            $row->items = json_decode($row->items, true);
-
+            $row->items = (!empty($row->items) && is_string($row->items))
+                ? json_decode($row->items, true)
+                : [];
             return $row;
         }, (array) $reuslts->data->rows);
-
+        return $reuslts;
         return $reuslts;
     }
 
